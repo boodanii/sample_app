@@ -10,6 +10,11 @@ end
 
 group :test do
 	gem 'rspec', '2.0.0.beta.19'
+	gem 'autotest-rails'
+	gem 'autotest'
+	gem 'autotest-fsevent', '>=0.2.2'
+	gem 'autotest-growl', '>=0.2.4'
+	gem 'spork', '>=0.8.4'
 end
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
